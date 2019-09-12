@@ -9,6 +9,8 @@ time: 10
 [ACCORDION-BEGIN [Step 1: ](Open Eclipse)]
 Open Eclipse, and select **New** > **ABAP Package**.
 
+[EMBEDDED-VIDEO [](https://www.youtube.com/watch?v=jjqFnO284hA)]
+
 ![Open Eclipse](package.png)
  
 [DONE]
