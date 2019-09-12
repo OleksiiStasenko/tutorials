@@ -27,7 +27,7 @@ UPDATED DETAILS
 **77 Min**
 
 ## Prerequisites  
-- [Access your first data in a SAP HANA XSC Application](http://go.sap.com/developer/tutorials/hana-data-access-authorizations.html)
+- [New link](mailto:rac-support@sap.com)
 
 [ACCORDION-BEGIN [STEP 1](Without)]
 ```
