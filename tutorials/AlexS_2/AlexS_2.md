@@ -78,28 +78,8 @@ Right-click on your package and navigate to **New** > **Other ABAP Repository Ob
 [ACCORDION-BEGIN [Step 5: ](Define database table)]
   1. Define the table columns (client, booking, `customername`, `numberofpassengers`, …). Specify client and booking as key fields, and the field `currencycode` as currency key for cost as displayed below. The table annotations (beginning with @) remain unchanged. For that, you can copy the database table definition provided below.
 
-    ```ABAP
-
-    @EndUserText.label : 'Demo: Booking Data'
-    @AbapCatalog.enhancementCategory : #NOT_EXTENSIBLE
-    @AbapCatalog.tableCategory : #TRANSPARENT
-    @AbapCatalog.deliveryClass : #A
-    @AbapCatalog.dataMaintenance : #LIMITED
-    define table ztbooking_xxx {
-    key client         : abap.clnt not null;
-    key booking        : abap.int4 not null;
-    customername       : abap.char(50);
-    numberofpassengers : abap.int2;
-    emailaddress       : abap.char(50);
-    country            : abap.char(50);
-    dateofbooking      : timestampl;
-    dateoftravel       : timestampl;
-    @Semantics.amount.currencyCode : 'ztbooking_xxx.currencycode'
-    cost               : abap.curr(15,2);
-    currencycode       : abap.cuky;
-    lastchangedat      : timestampl;
-    }
-
+    ```AB
+    @EndUserText.label : 'Demo: Booking Data
     ```
 
   2. Save and activate the database table.
@@ -131,50 +111,8 @@ Right-click on your package and navigate to **New** > **Other ABAP Repository Ob
 [ACCORDION-BEGIN [Step 7: ](Replace source code)]
   1. Replace the source code of your class with the one provided below:
 
-    ```ABAP
-
+    ```Shell
     CLASS zcl_generate_bookings_xxx DEFINITION
-      PUBLIC
-      FINAL
-      CREATE PUBLIC .
-
-      PUBLIC SECTION.
-        INTERFACES if_oo_adt_classrun.
-      PROTECTED SECTION.
-      PRIVATE SECTION.
-    ENDCLASS.
-
-
-    CLASS zcl_generate_bookings_xxx IMPLEMENTATION.
-
-      METHOD if_oo_adt_classrun~main.
-        DATA:it_bookings TYPE TABLE OF ztbooking_xxx.
-
-    *    read current timestamp
-        GET TIME STAMP FIELD DATA(zv_tsl).
-    *   fill internal table (itab)
-        it_bookings = VALUE #(
-            ( booking  = '1' customername = 'Buchholm' numberofpassengers = '3' emailaddress = 'tester1@flight.example.com'
-              country = 'Germany' dateofbooking ='20180213125959' dateoftravel ='20180213125959' cost = '546' currencycode = 'EUR' lastchangedat = zv_tsl )
-            ( booking  = '2' customername = 'Jeremias' numberofpassengers = '1' emailaddress = 'tester2@flight.example.com'
-              country = 'USA' dateofbooking ='20180313125959' dateoftravel ='20180313125959' cost = '1373' currencycode = 'USD' lastchangedat = zv_tsl )
-         ).
-
-    *   Delete the possible entries in the database table - in case it was already filled
-        DELETE FROM ztbooking_xxx.
-    *   insert the new table entries
-        INSERT ztbooking_xxx FROM TABLE @it_bookings.
-
-    *   check the result
-        SELECT * FROM ztbooking_xxx INTO TABLE @it_bookings.
-        out->write( sy-dbcnt ).
-        out->write( 'data inserted successfully!').
-
-      ENDMETHOD.
-
-    ENDCLASS.
-
-
     ```
 
   2. Save and active your class.
