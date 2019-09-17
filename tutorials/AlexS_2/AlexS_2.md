@@ -21,7 +21,7 @@ In this tutorial, wherever `XXX` appears, use a number (e.g. `000`).
 [ACCORDION-BEGIN [Step 1: ](Open Eclipse)]
 Open Eclipse, and select **New** > **ABAP Package**.
 
-![Open Eclipse](package.png)
+!![Open Eclipse](cat.png)
  
 [DONE]
 [ACCORDION-END]
