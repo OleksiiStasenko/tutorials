@@ -19,7 +19,8 @@ time: 44
 ### You will learn  
 TEST2
 
-
+!![Remote image](https://cdn.saleminteractivemedia.com/115/content/143211/healthy-morning-habits-to-help-you-have-a-great-day.jpg)
+!![Local image](cayde.jpg)
 
 ---
 
@@ -32,6 +33,9 @@ TEST2
 
 [ACCORDION-BEGIN [test](Accordion component which contains link(s) in Body)]
 Select a tutorial from the [Tutorial Navigator](http://go.sap.com/developer/tutorial-navigator.html) or the [Tutorial Catalog](http://go.sap.com/developer/tutorials.html)
+
+!![Remote image](https://m.media-amazon.com/images/I/71TKaut0ZIL._SS500_.jpg)
+!![Local image](cayde.jpg)
 
 ![Okay, everybody, back in your cages](cayde.jpg)
 
