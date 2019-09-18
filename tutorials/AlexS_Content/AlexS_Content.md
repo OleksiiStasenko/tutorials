@@ -20,7 +20,7 @@ time: 44
 TEST2
 
 !![Remote image](https://cdn.saleminteractivemedia.com/115/content/143211/healthy-morning-habits-to-help-you-have-a-great-day.jpg)
-!![Local image](cayde.png)
+!![Local image](white-background.png)
 
 ---
 
@@ -35,9 +35,13 @@ TEST2
 Select a tutorial from the [Tutorial Navigator](http://go.sap.com/developer/tutorial-navigator.html) or the [Tutorial Catalog](http://go.sap.com/developer/tutorials.html)
 
 !![Remote image](https://m.media-amazon.com/images/I/71TKaut0ZIL._SS500_.jpg)
+
+![Remote image](https://m.media-amazon.com/images/I/71TKaut0ZIL._SS500_.jpg)
+
+
 !![Local image](cayde.png)
 
-![Okay, everybody, back in your cages](cayde.png)
+![Okay, everybody, back in your cages](white-background.png)
 
 [DONE]
 [ACCORDION-END]
