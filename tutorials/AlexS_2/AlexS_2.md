@@ -1,13 +1,13 @@
 ---
 title: AlexS_2
-description: Create a database table in SAP Cloud Platform ABAP Environment and prefill it with data.
+description: Create a database table in SAP Cloud Platform ABAP Environment and prefill it with data. https://www.youtube.com/
 primary_tag: products>sap-cloud-platform--abap-environment  
 tags: [  tutorial>beginner, topic>abap-development, products>sap-cloud-platform]
 time: 10
 ---
 
 ## Prerequisites  
-- You must have an SAP Cloud Platform ABAP Environment user.
+- You must have an SAP Cloud Platform ABAP Environment user.https://www.youtube.com/
 
 ## Details
 ### You will learn
@@ -15,7 +15,7 @@ time: 10
 - How to `prefill` your database table with data
 
 In this tutorial, wherever `XXX` appears, use a number (e.g. `000`).
-
+https://www.youtube.com/
 ---
 
 [ACCORDION-BEGIN [Step 1: ](Open Eclipse)]
@@ -26,6 +26,8 @@ Open Eclipse, and select **New** > **ABAP Package**.
 ![Open Eclipse](white-background.png)
  
 !![Open Eclipse](white-background.png)
+ 
+ [youtube](https://www.youtube.com/)
  
 [DONE]
 [ACCORDION-END]
