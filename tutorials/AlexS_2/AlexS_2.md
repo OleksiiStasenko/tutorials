@@ -14,9 +14,9 @@ time: 10
 - How to create a database table
 - How to `prefill` your database table with data
 
-[Link](http://localhost/)
+[Link](http://localhost)
 
-[Link](http://127.0.0.1)
+[Link](https://127.0.0.1)
 
 [Link](http://localhost/test.html)
 
