@@ -14,6 +14,10 @@ time: 10
 - How to create a database table
 - How to `prefill` your database table with data
 
+[Link](http://localhost/)
+
+[Link](http://127.0.0.1)
+
 [Link](http://localhost/test.html)
 
 
@@ -28,6 +32,9 @@ time: 10
 
 http://10.23.160.1/
 
+<http://127.0.0.1>
+
+lorem ipsum http://127.0.0.1 dolor
 
 
 In this tutorial, wherever `XXX` appears, use a number (e.g. `000`).
