@@ -9,6 +9,10 @@ time: 10
 [ACCORDION-BEGIN [Step 1: ](Open Eclipse)]
 Open Eclipse, and select **New** > **ABAP Package**.
 
+[group](group.alexs_g1.html)
+
+[mission](mission.alexs_m1.html)
+
 [EMBEDDED-VIDEO [](https://www.youtube.com/watch?v=jjqFnO284hA)]
 
 ![Open Eclipse](package.png)
