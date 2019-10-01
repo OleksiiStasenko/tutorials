@@ -14,6 +14,10 @@ time: 22
 ### You will learn
 You'll learn how to configure your host machine to communicate with the server.
 
+[group](group.alexs_g1.html)
+
+[mission](mission.alexs_m1.html)
+
 ---
 
 [ACCORDION-BEGIN [Step 1: ](Update etc/hosts)]
