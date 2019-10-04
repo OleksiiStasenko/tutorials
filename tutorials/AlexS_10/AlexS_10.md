@@ -32,6 +32,38 @@ UPDATED DETAILS
 
 [Test](https://translate.google.com/)
 
+[Link](http://localhost)
+
+[Link](https://127.0.0.1)
+
+[Link](http://localhost/test.html)
+
+
+[Link](http://10.23.160.1/test.html)
+
+
+[Link](http://10.23.160.1/)
+
+
+(http://10.23.160.1/)
+
+
+http://10.23.160.1/
+
+<http://127.0.0.1>
+
+lorem ipsum http://127.0.0.1 dolor
+
+
+In this tutorial, wherever `XXX` appears, use a number (e.g. `000`).
+
+
+https://www.youtube.com/
+
+[Youtube](https://www.youtube.com/)
+
+[translate](https://translate.google.com/)
+
 [ACCORDION-BEGIN [STEP 1](Without)]
 ```
 using System;
