@@ -14,6 +14,11 @@ time: 10
 - How to create a database table
 - How to `prefill` your database table with data
 
+*bold*
+**very bold**
+***bolder***
+*bbbbold*
+
 [Link](http://localhost)
 
 [Link](https://127.0.0.1)
