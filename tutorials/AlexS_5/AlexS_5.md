@@ -20,9 +20,9 @@ You'll learn how to configure your host machine to communicate with the server.
 
 [group.invalid1](g123up.al123123)
 
-[mission.invalid](mission.alexs_m1)
+[mission](mission.alexs_m1)
 
-[mission.invalid1](mission.alexs_m1)
+[mission.invalid1](mission.alex123s_m1)
 
 [mission2](mission.alexs_m2)
 
