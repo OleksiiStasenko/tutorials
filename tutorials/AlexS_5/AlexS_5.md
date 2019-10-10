@@ -16,15 +16,18 @@ You'll learn how to configure your host machine to communicate with the server.
 
 [group](group.alexs_g1)
 
-[group1](group.al123123)
+[group.invalid](group.al123123)
 
-[group1](g123up.al123123)
+[group.invalid1](g123up.al123123)
 
-[mission](mission.alexs_m1)
+[mission.invalid](mission.alexs_m1)
 
-[miss1123ion](mission.alexs_m1)
+[mission.invalid1](mission.alexs_m1)
 
-[mission](mission.ale123123m1)
+[mission2](mission.alexs_m2)
+
+[group2](group.alexs_g2)
+
 ---
 
 [ACCORDION-BEGIN [Step 1: ](Update etc/hosts)]
