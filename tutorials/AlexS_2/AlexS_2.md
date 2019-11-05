@@ -9,7 +9,7 @@ time: 10
 ## Prerequisites  
 - You must have an SAP Cloud Platform ABAP Environment user.https://www.youtube.com/
 
-## Details
+## Deta123ils
 ### You will learn
 - How to create a database table
 - How to `prefill` your database table with data
