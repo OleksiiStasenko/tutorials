@@ -1,5 +1,5 @@
 ---
-title: AlexS_2
+title: Alex_LocalHost+Borders
 description: Create a database table in SAP Cloud Platform ABAP Environment and prefill it with data. https://www.youtube.com/
 primary_tag: products>sap-cloud-platform--abap-environment  
 tags: [  tutorial>beginner, topic>abap-development, products>sap-cloud-platform]
