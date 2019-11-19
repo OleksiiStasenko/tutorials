@@ -58,6 +58,8 @@ Open Eclipse, and select **New** > **ABAP Package**.
 !![Open Eclipse](cat.png)
 
 ![Open Eclipse](white background.png)
+
+![Open Eclipse](white-background.png)
  
 !![Open Eclipse](white background.png)
  
